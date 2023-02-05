@@ -21,6 +21,7 @@ class Car extends Vehicle{
 
   Car(String model, int year, this.price) : super(model, year);
 
+  @override
   void showOutput(){
     super.showOutput();
     print(this.price);
